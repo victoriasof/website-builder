@@ -7,9 +7,11 @@ html, css, javascript, php
 XAMPP 
 
 FileZilla Client 
+
 InfinityFree
 
 MySQL Database 
+
 phpMyAdmin
 
 
