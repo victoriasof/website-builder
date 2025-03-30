@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Megrim&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welkom op mijn Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">Over Mij</a></li>
+                    <li><a href="#projects">Projecten</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                  <button id="dark-mode-toggle">Toggle Dark Mode</button>
+                  
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>Over Mij</h2>
+            <p>Hallo! Mijn naam is Victoria en ik ben een enthousiaste marketingstudent. Ik ben gepassioneerd door digitale marketing, design en het creëren van unieke ervaringen. Bovendien experimenteer ik graag met innovatieve technologieën zoals AI.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Mijn Projecten</h2>
+            <div class="project">
+                <img src="images/project1.jpg" alt="Project 1">
+                <h3>Project 1</h3>
+                <p>Cute fox with a red hat</p>
+            </div>
+            <div class="project">
+                <img src="images/project2.jpg" alt="Project 2">
+                <h3>Project 2</h3>
+                <p>white rabbit with a blue tie</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contacteer Mij</h2>
+            <!--
+            <form action="https://formsubmit.co/victoria.sofianidou@gmail.com" method="POST">
+                <label for="name">Naam:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Bericht:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Verstuur</button>
+            </form>
+            -->
+           
+             <form action="contact.php" method="POST">
+
+                <label for="name">Naam:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Bericht:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Verstuur</button>
+            </form>
+            
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Victoria Sofianidou</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
