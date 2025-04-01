@@ -19,6 +19,7 @@ You can view the live version of the website here:
 - **Hosting**: InfinityFree
 - **Database Management**: phpMyAdmin
 
+<<<<<<< HEAD
 ---
 
 ## Features
@@ -75,20 +76,7 @@ You can view the live version of the website here:
   ('Victoria', 'victoria.sofianidou@gmail.com', 'Hello!', '2025-03-30 20:17:41');
   ```
 
-### 6. Implement Dark Mode
-- Added a button in `index.html` to toggle dark mode:
-  ```html
-  <button id="dark-mode-toggle">Toggle Dark Mode</button>
-  ```
-- Implemented the functionality in `script.js`:
-  ```javascript
-  const toggleButton = document.getElementById('dark-mode-toggle');
-  toggleButton.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-  });
-  ```
-
-### 7. Deploy the Website
+### 6. Deploy the Website
 - **Local Testing**:
   - Used **XAMPP** to test the website locally.
   - Placed the project files in the `htdocs` directory.
@@ -151,5 +139,3 @@ http://localhost/Website%20builder
 ## Author
 **Victoria Sofianidou**  
 [GitHub Profile](https://github.com/victoriasof)
-
-
