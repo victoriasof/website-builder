@@ -2,13 +2,11 @@
 
 This is a portfolio website built using **HTML**, **CSS**, **JavaScript**, **PHP**, and **MySQL**. It includes a contact form with database integration, a dark mode toggle, and a responsive design.
 
----
 
 ## Live Demo
 You can view the live version of the website here:  
 [http://victoriasofianidou.infinityfreeapp.com/?i=1](http://victoriasofianidou.infinityfreeapp.com/?i=1)
 
----
 
 ## Tools and Technologies Used
 - **Frontend**: HTML, CSS, JavaScript
@@ -20,7 +18,7 @@ You can view the live version of the website here:
 - **Database Management**: phpMyAdmin
 
 <<<<<<< HEAD
----
+
 
 ## Features
 - **Portfolio Sections**:
@@ -31,7 +29,6 @@ You can view the live version of the website here:
 - **Contact Form**: Saves user messages to a MySQL database.
 - **Responsive Design**: Works on both desktop and mobile devices.
 
----
 
 ## Steps to Create and Deploy the Project
 
@@ -87,7 +84,6 @@ You can view the live version of the website here:
   - Imported the database using **phpMyAdmin**.
   - Configured the `config.php` file with the hosting database credentials.
 
----
 
 ## How to Set Up Locally
 
@@ -127,15 +123,13 @@ Open the website in your browser:
 http://localhost/Website%20builder
 ```
 
----
+
 
 ## Future Improvements
 - Add email notifications using PHPMailer.
 - Enhance the design with animations and transitions.
 - Add more projects to the portfolio section.
 
----
 
-## Author
-**Victoria Sofianidou**  
-[GitHub Profile](https://github.com/victoriasof)
+
+
